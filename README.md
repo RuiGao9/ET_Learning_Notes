@@ -11,7 +11,7 @@ $$ET_o=\frac{0.408\Delta(R_n-G)+\gamma\frac{900}{T+273}u_2(e_s-e_a)}{\Delta+\gam
 
 ### CIMIS Method
 <p align="center">
-  <img src="Figures/CIMIS_ETo.png" alt="ETo Comparison" width="600">
+  <img src="./Figures/CIMIS_ETo.png" alt="ETo Comparison" width="600">
   <br>
   <b>Figure 1. </b>My understanding of the CIMIS ETo calculation based on five station observations.
 </p>
