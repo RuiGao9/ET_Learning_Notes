@@ -21,7 +21,7 @@ $$ET_o=\frac{\Delta\times R_n}{(\Delta+\gamma)\times[694.5(1-0.000946)\times T]}
 $$ET_o=\frac{\Delta\times R_n}{(\Delta+\gamma)\times[694.5(1-0.000946)\times T]}[\frac{\gamma\times(e_s-e_a)}{\Delta-\gamma}\times0.030\times0.576\times u_2] $$
 
 ### Hargreaves-Samani Method
-$$ET_o = 0.0023 \, R_a \, (T_{mean} + 17.8) \, \sqrt{T_{max} - T_{min}}$$
+$$ET_o = 0.0023 \times R_a \times (T_{mean} + 17.8) \, \sqrt{T_{max} - T_{min}}$$
 
 
 ## Acknowledgement
