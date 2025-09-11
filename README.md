@@ -5,6 +5,17 @@
 <sup>2</sup>Valley Institute for Sustainable Technology & Agriculture, University of California, Merced, CA 95343, USA<br>
 <sup>3</sup>Center for humanities, University of California, Merced, CA 95343, USA<br>
 
+### FAO Penman-Monteith Method (FAO-56)
+$$ET_o=\frac{0.408\Delta(R_n-G)+\gamma\frac{900}{T+273}u_2(e_s-e_a)}{\Delta+\gamma(1+0.34u_2)}$$
+### CIMIS Method
+- For daytime ($Rn>0$)
+$$ET_o=\frac{\Delta\times R_n}{(\Delta+\gamma)\times[694.5(1-0.000946)\times T]}[\frac{\gamma\times(e_s-e_a)}{\Delta-\gamma}\times0.125\times0.0439\times u_2] $$
+- For nighttime ($Rn<=0$)
+$$ET_o=\frac{\Delta\times R_n}{(\Delta+\gamma)\times[694.5(1-0.000946)\times T]}[\frac{\gamma\times(e_s-e_a)}{\Delta-\gamma}\times0.030\times0.576\times u_2] $$
+### Hargreaves-Samani Method
+$$ET_o = 0.0023 \, R_a \, (T_{mean} + 17.8) \, \sqrt{T_{max} - T_{min}}$$
+
+
 ## Acknowledgement
 The authors are grateful for the funding support from the Secure Water Future (USDA NIFA # 2021-69012-35916) and Economic Development Administration Build Back Better Regional Challenge Farms-Food-Future Innovation Iniative (EDA #77907913). The authors also extend their sincere thanks to Dr. Safeeq Khan (University of California, Merced), Dr. Joshua H. Viers (University of California, Merced), and Dr. Bai Yang (Campbell Scientific, Logan) for their valuable support and guidance during hands-on experiments involving various sensors and the eddy-covariance flux tower.
 
