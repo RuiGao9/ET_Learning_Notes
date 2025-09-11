@@ -5,6 +5,9 @@
 <sup>2</sup>Valley Institute for Sustainable Technology & Agriculture, University of California, Merced, CA 95343, USA<br>
 <sup>3</sup>Center for humanities, University of California, Merced, CA 95343, USA<br>
 
+## Acknowledgement
+The authors are grateful for the funding support from the Secure Water Future (USDA NIFA # 2021-69012-35916) and Economic Development Administration Build Back Better Regional Challenge Farms-Food-Future Innovation Iniative (EDA #77907913). The authors also extend their sincere thanks to Dr. Safeeq Khan (University of California, Merced), Dr. Joshua H. Viers (University of California, Merced), and Dr. Bai Yang (Campbell Scientific, Logan) for their valuable support and guidance during hands-on experiments involving various sensors and the eddy-covariance flux tower.
+
 ## Citation
 If you use this repository in your work, please cite it using the following DOI:
 
