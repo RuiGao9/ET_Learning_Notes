@@ -17,12 +17,15 @@ $$ET_o=\frac{0.408\Delta(R_n-G)+\gamma\frac{900}{T+273}u_2(e_s-e_a)}{\Delta+\gam
 </p>
 
 - For daytime ($Rn>0$)
+  
 $$ET_o=\frac{\Delta\times R_n}{(\Delta+\gamma)\times[694.5(1-0.000946)\times T]}[\frac{\gamma\times(e_s-e_a)}{\Delta-\gamma}\times0.125\times0.0439\times u_2] $$
+
 - For nighttime ($Rn<=0$)
+  
 $$ET_o=\frac{\Delta\times R_n}{(\Delta+\gamma)\times[694.5(1-0.000946)\times T]}[\frac{\gamma\times(e_s-e_a)}{\Delta-\gamma}\times0.030\times0.576\times u_2] $$
 
 ### Hargreaves-Samani Method
-$$ET_o = 0.0023 \, R_a \, (T_{mean} + 17.8) \, \sqrt{T_{max} - T_{min}}$$
+$$ET_o = 0.0023 \times R_a \times (T_{mean} + 17.8) \times \sqrt{T_{max} - T_{min}}$$
 
 ## Actual ET
 ### TSEB models
