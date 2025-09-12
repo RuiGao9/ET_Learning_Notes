@@ -10,7 +10,7 @@
 $$ET_o=\frac{0.408\Delta(R_n-G)+\gamma\frac{900}{T+273}u_2(e_s-e_a)}{\Delta+\gamma(1+0.34u_2)}$$
 
 ### CIMIS Method
-[Figure 1](#fig-cimis) shows the steps for ET<sub>o</sub> calculation based on my understanding/experience in field data collection and the method explained on the CIMIS website . The gray boxes mean five hourly station observations, including the mean hourly air temperature at 2 -m height in ℃, mean hourly wind speed at 2-m height in ms<sup>-1</sup>, mean hourly relative humidity at 2-m height in %, elevation of the station above mean sea level in m, and mean hourly net radiation in Wm<sup>-2</sup>. The green boxes mean the necessary variable for hourly ETo (the bright orange box) and daily ET<sub>o</sub> (the blue box) calculation.
+[Figure 1](#fig-cimis) shows the steps for ET<sub>o</sub> calculation based on my understanding/experience in field data collection and the method explained on the CIMIS website . The gray boxes mean **five** hourly station observations, including the mean hourly air temperature at 2 -m height in ℃, mean hourly wind speed at 2-m height in ms<sup>-1</sup>, mean hourly relative humidity at 2-m height in %, elevation of the station above mean sea level in m, and mean hourly net radiation in Wm<sup>-2</sup>. The green boxes mean the necessary variable for hourly ETo (the bright orange box) and daily ET<sub>o</sub> (the blue box) calculation.
 
 <a name='fig-cimis'></a>
 <p align="center">
@@ -27,6 +27,7 @@ $$ET_o=\frac{\Delta\times R_n}{(\Delta+\gamma)\times[694.5(1-0.000946)\times T]}
   
 $$ET_o=\frac{\Delta\times R_n}{(\Delta+\gamma)\times[694.5(1-0.000946)\times T]}[\frac{\gamma\times(e_s-e_a)}{\Delta-\gamma}\times0.030\times0.576\times u_2] $$
 
+This entire process is programed in a python function called ```eto_cimis.py```
 ### Hargreaves-Samani Method
 $$ET_o = 0.0023 \times R_a \times (T_{mean} + 17.8) \times \sqrt{T_{max} - T_{min}}$$
 
