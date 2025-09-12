@@ -10,6 +10,9 @@
 $$ET_o=\frac{0.408\Delta(R_n-G)+\gamma\frac{900}{T+273}u_2(e_s-e_a)}{\Delta+\gamma(1+0.34u_2)}$$
 
 ### CIMIS Method
+[Figure 1](#fig-cimis) shows the steps for ET<sub>o</sub> calculation based on my understanding/experience in field data collection and the method explained on the CIMIS website . The gray boxes mean five hourly station observations, including the mean hourly air temperature at 2 -m height in ℃, mean hourly wind speed at 2-m height in ms<sup>-1</sup>, mean hourly relative humidity at 2-m height in %, elevation of the station above mean sea level in m, and mean hourly net radiation in Wm<sup>-2</sup>. The green boxes mean the necessary variable for hourly ETo (the bright orange box) and daily ET<sub>o</sub> (the blue box) calculation.
+
+<a name='fig-cimis'></a>
 <p align="center">
   <img src=".\Figures\CIMIS_ETo.png" alt="ETo Comparison" width="600">
   <br>
@@ -29,6 +32,8 @@ $$ET_o = 0.0023 \times R_a \times (T_{mean} + 17.8) \times \sqrt{T_{max} - T_{mi
 
 ## Actual ET
 ### TSEB models
+
+### Shuttleworth-Wallace model
 
 ## Acknowledgement
 The authors are grateful for the funding support from the Secure Water Future (USDA NIFA # 2021-69012-35916) and Economic Development Administration Build Back Better Regional Challenge Farms-Food-Future Innovation Iniative (EDA #77907913). The authors also extend their sincere thanks to Dr. Safeeq Khan (University of California, Merced), Dr. Joshua H. Viers (University of California, Merced), and Dr. Bai Yang (Campbell Scientific, Logan) for their valuable support and guidance during hands-on experiments involving various sensors and the eddy-covariance flux tower.
