@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/17102229.svg)](https://doi.org/10.5281/zenodo.17102229)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17102229.svg)](https://doi.org/10.5281/zenodo.17102229)
 ![Visitors Badge](https://visitor-badge.laobi.icu/badge?page_id=RuiGao9.ET_Learning_Notes)
 
 # ET_Learning_Notes
