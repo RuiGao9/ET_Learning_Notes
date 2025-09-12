@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/17102229.svg)](https://doi.org/10.5281/zenodo.17102229)
+![Visitors Badge](https://visitor-badge.laobi.icu/badge?page_id=RuiGao9.ET_Learning_Notes)
+
 # ET_Learning_Notes
 ## A Learning Notes Focusing on Evapotranspiration from Different Resources
 <p align="center">Rui Gao<sup>1,2</sup>, Man Zhang<sup>3</sup></p>
